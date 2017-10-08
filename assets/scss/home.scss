@@ -1,0 +1,318 @@
+/*
+Theme Name: Materialize
+Theme URI: https://luiscordero29.com/wordpress/themes/materialize/
+Author: Luis Cordero
+Author URI: https://luiscordero29.com/
+Description: Custon Theme for Blog.
+Version: 1.0
+License:
+*/
+#home {
+    background-color: #fcfcfc;
+}
+#home nav {
+    color: #fff;
+    background-color: #212121;
+}
+#home .dropdown-content li > a, 
+#home .dropdown-content li > span {
+	font-size: 16px;
+	color: #212121;
+	display: block;
+	line-height: 22px;
+	padding: 14px 16px;
+}
+#home nav ul a:hover {
+    background-color: rgba(177, 177, 177, 0.1);
+}
+#home .parallax-container {
+    height: 400px;
+    background: rgba(27, 31, 43, 0.6);
+}
+#home .parallax-container .banner {
+	margin-top: 160px;
+}
+#home .parallax-container .banner h1, 
+#home .parallax-container .banner h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+#home .parallax-container .banner h1 {
+	font-size: 40px;
+	font-weight: 900;
+}
+#home .parallax-container .banner h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+#home .services {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#home .services .item_service {
+	height: 580px;
+	border: 1px solid #eee;
+	padding: 2%;
+}
+#home .services h1 {
+	font-size: 40px;
+	color: #797979;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#home .services p.description {
+	font-size: 16px;
+	line-height: 30px;
+	color: #4B4B4B;
+}
+#home .services p {
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #4B4B4B;
+}
+#home .services i {
+    color: #03a9f4;
+}
+#home .services h2 {
+  	font-size: 20px;
+  	text-transform: uppercase;
+  	font-weight: 700;
+	line-height: 30px;
+  	color: #666;
+}
+#home .projects {
+    padding: 3% 0;
+    width: 100%;
+    background-color: #eee;
+}
+#home .projects h1 {
+	font-size: 40px;
+	color: #797979;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#home .projects .row .col {
+    padding: 0 0rem;
+}
+#home .projects .row {
+    margin-bottom: 0px;
+}
+#home .projects .item {
+    height: 250px;
+    position: relative;
+}
+#home .projects .item img {
+    width: 100%;
+    min-height: 250px;
+    height: 250px;
+}
+#home .projects .item a.item_project span {
+    position: absolute;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    z-index: 1;
+    color: #fff;
+    padding-top: 25%;
+    padding-left: 5%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* internet explorer */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+    /*IE8*/
+    background: rgba(27, 31, 43, 0.6);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#home .projects .item a.item_project span i {
+    font-size: 2.7em;
+    color: #fff;
+    vertical-align: top;
+    margin: 0% 40%;
+}
+#home .projects .item a.item_project span p {
+    font-size: .9em !important;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    vertical-align: top;
+    width: 100% !important;
+    padding: 1% !important;
+    font-weight: bold;
+    text-align: left !important;
+}
+#home .projects .item a.item_project span ul li {
+    margin: 2% auto !important;
+}
+#home .projects .item a.item_project:hover > span {
+    opacity: 1;
+    padding-top: 1%;
+    filter: alpha(opacity=99);
+    /* internet explorer */
+    z-indexms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+    /*IE8*/
+}
+#home .bible .parallax-container {
+	height: 200px;
+    background: rgba(27, 31, 43, 0.6);
+}
+#home .bible p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	margin-top: 80px;
+	font-style: italic;
+}
+#home .contact {
+	background: #f8f8f8;
+}
+#home .contact > .row {
+	margin-bottom: 0px;
+}
+#home .contact .form-container {
+	background: #fff;
+	border-left: 1px solid #ddd;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+#home .contact .information {
+	padding-top: 50px;
+}
+#home .contact .information h1 {
+	color: #797979;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+#home .contact .information .btn-floating {
+    background: #fff;
+    margin-right: 15px;
+}
+#home .contact .information .btn-floating i {
+    color: #03a9f4;
+}
+#home .contact .information li {
+    line-height: 60px;
+}
+#home .contact .information {
+	padding-top: 50px;
+}
+#home .btn, .btn-large {
+    background-color: #03a9f4;
+}
+#home .alert {
+    padding: 20px;
+}
+#home input.valid:not([type]), 
+#home input.valid:focus:not([type]), 
+#home input.valid[type="text"], 
+#home input.valid[type="text"]:focus, 
+#home input.valid[type="password"], 
+#home input.valid[type="password"]:focus, 
+#home input.valid[type="email"], 
+#home input.valid[type="email"]:focus, 
+#home input.valid[type="url"], 
+#home input.valid[type="url"]:focus, 
+#home input.valid[type="time"], 
+#home input.valid[type="time"]:focus, 
+#home input.valid[type="date"], 
+#home input.valid[type="date"]:focus, 
+#home input.valid[type="datetime"], 
+#home input.valid[type="datetime"]:focus, 
+#home input.valid[type="datetime-local"], 
+#home input.valid[type="datetime-local"]:focus, 
+#home input.valid[type="tel"], input.valid[type="tel"]:focus, 
+#home input.valid[type="number"], input.valid[type="number"]:focus, 
+#home input.valid[type="search"], input.valid[type="search"]:focus, 
+#home textarea.materialize-textarea.valid, 
+#home textarea.materialize-textarea.valid:focus {
+    border-bottom: 1px solid #03a9f4;
+    box-shadow: 0 1px 0 0 #03a9f4;
+}
+#home input:focus:not([type]):not([readonly]), 
+#home input[type="text"]:focus:not([readonly]), 
+#home input[type="password"]:focus:not([readonly]), 
+#home input[type="email"]:focus:not([readonly]), 
+#home input[type="url"]:focus:not([readonly]), 
+#home input[type="time"]:focus:not([readonly]), 
+#home input[type="date"]:focus:not([readonly]), 
+#home input[type="datetime"]:focus:not([readonly]), 
+#home input[type="datetime-local"]:focus:not([readonly]), 
+#home input[type="tel"]:focus:not([readonly]), 
+#home input[type="number"]:focus:not([readonly]), 
+#home input[type="search"]:focus:not([readonly]), 
+#home textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #03a9f4;
+    box-shadow: 0 1px 0 0 #03a9f4;
+}
+#home input.valid:not([type]) + label::after, 
+#home input.valid:focus:not([type]) + label::after, 
+#home input.valid[type="text"] + label::after, 
+#home input.valid[type="text"]:focus + label::after, 
+#home input.valid[type="password"] + label::after, 
+#home input.valid[type="password"]:focus + label::after, 
+#home input.valid[type="email"] + label::after, 
+#home input.valid[type="email"]:focus + label::after, 
+#home input.valid[type="url"] + label::after, 
+#home input.valid[type="url"]:focus + label::after,
+#home input.valid[type="time"] + label::after, 
+#home input.valid[type="time"]:focus + label::after, 
+#home input.valid[type="date"] + label::after, 
+#home input.valid[type="date"]:focus + label::after, 
+#home input.valid[type="datetime"] + label::after, 
+#home input.valid[type="datetime"]:focus + label::after, 
+#home input.valid[type="datetime-local"] + label::after, 
+#home input.valid[type="datetime-local"]:focus + label::after, 
+#home input.valid[type="tel"] + label::after, 
+#home input.valid[type="tel"]:focus + label::after, 
+#home input.valid[type="number"] + label::after, 
+#home input.valid[type="number"]:focus + label::after, 
+#home input.valid[type="search"] + label::after, 
+#home input.valid[type="search"]:focus + label::after, 
+#home textarea.materialize-textarea.valid + label::after, 
+#home textarea.materialize-textarea.valid:focus + label::after {
+    content: attr(data-success);
+    color: #03a9f4;
+    opacity: 1;
+}
+#home input:not([type]):focus:not([readonly]) + label,
+#home input[type=text]:focus:not([readonly]) + label,
+#home input[type=password]:focus:not([readonly]) + label,
+#home input[type=email]:focus:not([readonly]) + label,
+#home input[type=url]:focus:not([readonly]) + label,
+#home input[type=time]:focus:not([readonly]) + label,
+#home input[type=date]:focus:not([readonly]) + label,
+#home input[type=datetime]:focus:not([readonly]) + label,
+#home input[type=datetime-local]:focus:not([readonly]) + label,
+#home input[type=tel]:focus:not([readonly]) + label,
+#home input[type=number]:focus:not([readonly]) + label,
+#home input[type=search]:focus:not([readonly]) + label,
+#home textarea.materialize-textarea:focus:not([readonly]) + label {
+  	color: #03a9f4;
+}
+#home .page-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #4d4d4d;
+}
+#home .page-footer .copy {
+    padding-top: 10px;
+}
+#home .page-footer .btn-floating {
+    margin-left: 15px;
+    background-color: #fff;
+}
+#home .page-footer .btn-floating i {
+    color: #4d4d4d;
+}
+#home #map {
+    height: 200px;
+}

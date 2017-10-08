@@ -1,0 +1,48 @@
+@media (max-width: 600px) { 
+	.container {
+		min-width: 80%;
+	}
+	#home .parallax-container .banner {
+		margin-top: 20%;
+	}
+	#home .parallax-container .banner h1 {
+		font-size: 24px;
+	}
+	#home .parallax-container .banner h2 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	#home .services h1 {
+		font-size: 24px;
+	}
+	#home .services p.description {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#home .services .item_service {
+		height: auto;
+		padding: 15px;
+	}
+	#home .services h2 {
+	  	font-size: 18px;
+	}
+	#home .services p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	#home .bible p {
+		font-size: 16px;
+		line-height: 25px;
+		margin-top: 15%;
+	}
+	#home .follow-me {
+		display: none;
+	}
+	#home .follow-me-mobile {
+		display: block;
+		padding-top: 10px;
+	}
+	#home .page-footer .btn-floating {
+	    margin-right: 5px;
+	}
+}

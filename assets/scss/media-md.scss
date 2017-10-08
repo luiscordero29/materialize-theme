@@ -1,0 +1,22 @@
+@media (min-width: 601px) and (max-width: 992px) { 
+	.container {
+		min-width: 85%;
+	}
+	#home .parallax-container .banner {
+		margin-top: 10%;
+	}
+	#home .services .item_service {
+		height: 500px;
+	}
+	#home .bible p {
+		font-size: 16px;
+		line-height: 25px;
+		margin-top: 10%;
+	}
+	#home .projects .item {
+	    height: 480px;
+	}
+  	#home .follow-me-mobile {
+		display: none;
+	}
+}
