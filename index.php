@@ -4,7 +4,7 @@
     <section id="blog">
         <div class="container">
             <div class="row">
-                <div class="col s6">
+                <div class="col s8">
                     <div class="posts">
                         <?php
                             while ( have_posts() ) : the_post(); 
@@ -35,15 +35,25 @@
                     </div>
                 </div>
                 <div class="col s4">
-                    <aside>
-                        sidebar
+                    <aside id="aside">
+                        <?php 
+                            if ( is_active_sidebar( 'sidebar' ) ) :
+                                dynamic_sidebar( 'sidebar' ); 
+                            endif; 
+                        ?>
                     </aside>
                 </div>
+                <?php /* ?>
                 <div class="col s2">
-                    <aside>
-                        sidebar
+                    <aside id="advertising">
+                        <?php 
+                            if ( is_active_sidebar( 'advertising' ) ) :
+                                dynamic_sidebar( 'advertising' ); 
+                            endif; 
+                        ?>
                     </aside>
                 </div>
+                php */ ?>
             </div>
         </div>
     </section>

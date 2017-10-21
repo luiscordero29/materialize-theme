@@ -98,6 +98,35 @@
                 return '';
             }
         }
+    }
+
+    # Listados de Widgets
+    add_action( 'widgets_init', 'syi_widgets_init' );
+    function syi_widgets_init() 
+    {
+        # sidebar
+        register_sidebar(
+            array(
+                'name'          => 'sidebar',
+                'id'            => 'sidebar',
+                'before_widget' => '<div>',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3>',
+                'after_title'   => '</h3>',
+            )
+        ); 
+
+        # sidebar
+        register_sidebar(
+            array(
+                'name'          => 'advertising',
+                'id'            => 'advertising',
+                'before_widget' => '<div class="advertising z-depth-2">',
+                'after_widget'  => '</div>',
+                'before_title'  => '',
+                'after_title'   => '',
+            )
+        ); 
     } 
 
 
